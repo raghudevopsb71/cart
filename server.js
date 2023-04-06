@@ -1,10 +1,4 @@
 const redis = require('redis');
-const redis = require('redis');
-const redis = require('redis');
-const redis = require('redis');
-const redis = require('redis');
-const redis = require('redis');
-const redis = require('redis');
 const request = require('request');
 const bodyParser = require('body-parser');
 const express = require('express');
@@ -21,6 +15,11 @@ const counter = new promClient.Counter({
 });
 
 
+var redisConnected = false;
+var redisConnected = false;
+var redisConnected = false;
+var redisConnected = false;
+var redisConnected = false;
 var redisConnected = false;
 
 var redisHost = process.env.REDIS_HOST || 'redis'
